@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <EditText
+            android:id="@+id/etAsal"
+            android:layout_width="match_parent"
+            android:hint="Asal"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/etTujuan"
+            android:layout_width="match_parent"
+            android:hint="Tujuan"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/btnDirection"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:text="Get Direction"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
